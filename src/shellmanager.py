@@ -1,0 +1,64 @@
+# coding: utf-8
+"""
+Contains the code for the panel.
+"""
+from gi import require_version as gi_require_version
+gi_require_version("Gtk", "4.0")
+gi_require_version('Adw', '1')
+
+from gi.repository import Adw, Gtk
+from .interfaces.manager import start_interface_manager
+
+from .control_panel import ControlPanelContainer
+from .notification_popup import NotificationPopup
+from .window_switcher import WindowSwitcher
+from .panel import Panel
+
+running = False
+
+class ShellManager:
+	"""Main shell daemon class, keeps track of running windows."""
+	def __init__(self, app):
+		"""Initializes the shell."""
+		# Initialize interfaces
+		start_interface_manager()
+
+		# Initialize shell surfaces
+		self.windows = Gtk.WindowGroup()
+
+		style_manager = Adw.StyleManager.get_default()
+		style_manager.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
+
+		self.window_switcher = WindowSwitcher(app)
+		self.windows.add_window(self.window_switcher)
+
+		self.control_panel = ControlPanelContainer(app)
+		self.windows.add_window(self.control_panel)
+
+		self.notification_popup = NotificationPopup(app)
+		self.windows.add_window(self.notification_popup)
+
+		self.panel = Panel(app)
+		self.windows.add_window(self.panel)
+
+		self.window_switcher.set_transient_for(self.panel)
+		self.control_panel.set_transient_for(self.panel)
+		self.notification_popup.set_transient_for(self.panel)
+		self.panel.show()
+
+def on_activate(app):
+	global running
+	if running:
+		return False
+	running = True
+
+	global shell_manager
+	shell_manager = ShellManager(app)
+
+def main(version):
+	global _version
+	_version = version
+	app = Adw.Application(application_id='org.dithernet.aspinwall_shell')
+	app.set_resource_base_path('/org/dithernet/aspinwall/stylesheet')
+	app.connect('activate', on_activate)
+	app.run()

@@ -1,0 +1,17 @@
+venv/
+
+*.pyc
+__pycache__/
+
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+fil-result
+
+dist/
+build/
+output/
+*.egg-info/
+
+gschemas.compiled
