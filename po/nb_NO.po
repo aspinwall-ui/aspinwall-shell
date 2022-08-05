@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: 2022-04-04 11:08+0000\n"
+"PO-Revision-Date: 2022-08-06 13:18+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "aspinwall-ui/aspinwall-shell/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
@@ -104,6 +104,8 @@ msgid ""
 "Used by the slideshow mode to keep track of the time remaining until the "
 "next wallpaper switch."
 msgstr ""
+"Brukt av lysbildeframvisningen for å holde øye med gjenstående tid til neste "
+"bakgrunnsbytte."
 
 #. TRANSLATORS: This is for the light/dark mode switch; can be translated as "Preferred theme"
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:77
@@ -133,12 +135,12 @@ msgstr ""
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:95
 msgid "Time until idle mode activation"
-msgstr ""
+msgstr "Tid til aktivering av lediggangsmodus"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:96
 msgid ""
 "Amount of time (in seconds) after which the launcher goes into idle mode."
-msgstr ""
+msgstr "Sekunder før oppstarteren går inn i lediggangsmodus."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:103
 #: src/launcher/ui/settings.ui:418
@@ -149,7 +151,7 @@ msgstr "Klokke"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:104
 msgid "Size of the clock in the launcher (0 - small, 1 - medium, 2 - large)."
-msgstr ""
+msgstr "Størrelse på klokken i oppstarteren (0 - liten, 1 middels, 2 - stor)."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:111
 msgid "Favorite apps"
@@ -219,7 +221,7 @@ msgstr "Søk etter programmer …"
 #. TRANSLATORS: Tooltip text for close button
 #: src/launcher/ui/appchooser.ui:32 src/launcher/ui/widgetchooser.ui:39
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: src/launcher/ui/appchooser.ui:123 src/launcher/ui/widgetchooser.ui:67
 msgid "No Results Found"
@@ -240,7 +242,7 @@ msgstr "_Legg til i favoritter"
 #. TRANSLATORS: Tooltip for the "open app chooser" button in the launcher
 #: src/launcher/ui/launcher.ui:56
 msgid "Installed apps"
-msgstr ""
+msgstr "Installerte programmer"
 
 #: src/launcher/ui/settings.ui:17
 msgid "Wallpaper"
@@ -353,13 +355,16 @@ msgstr "_Oppstarterinnstillinger"
 #. TRANSLATORS: "Idle mode" refers to the mode where, after a set time of inactivity, the widgets reduce their opacity and the app chooser/menu buttons disappear.
 #: src/launcher/ui/settings.ui:385
 msgid "Enter idle mode after:"
-msgstr ""
+msgstr "Gå inn i leddiggangsmodus etter:"
 
 #: src/launcher/ui/settings.ui:386
+#, fuzzy
 msgid ""
 "In idle mode, after some time of inactivity, the opacity of the widgets is "
 "reduced, and the menu buttons are hidden."
 msgstr ""
+"I lediggangsmodus vil dekkevnen for miniprogrammer reduseres og menyknappene "
+"skjules etter en stund."
 
 #: src/launcher/ui/settings.ui:414
 msgid "Clock"
@@ -368,17 +373,17 @@ msgstr "Klokke"
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:427
 msgid "Small"
-msgstr ""
+msgstr "Liten"
 
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:429
 msgid "Medium"
-msgstr ""
+msgstr "Middels"
 
 #. TRANSLATORS: Clock size option
 #: src/launcher/ui/settings.ui:431
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: src/launcher/ui/settings.ui:440
 msgid "Time and date format"
@@ -426,7 +431,7 @@ msgstr "_Legg til miniprogrammer …"
 #. TRANSLATORS: Tooltip for "Exit" button in widget management mode
 #: src/launcher/ui/widgetbox.ui:101
 msgid "Exit widget management mode"
-msgstr ""
+msgstr "Avslutt håndtering av miniprogram"
 
 #: src/launcher/ui/widgetbox.ui:135
 msgid "_Add Widgets…"
@@ -469,22 +474,22 @@ msgstr "Miniprograminnstillinger"
 #. TRANSLATORS: Tooltip for "remove widget" button
 #: src/launcher/ui/widgetviewheader.ui:18
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 #. TRANSLATORS: Tooltip for "move widget up" button in widget header
 #: src/launcher/ui/widgetviewheader.ui:88
 msgid "Move up"
-msgstr ""
+msgstr "Flytt oppover"
 
 #. TRANSLATORS: Tooltip for "move widget down" button in widget header
 #: src/launcher/ui/widgetviewheader.ui:103
 msgid "Move down"
-msgstr ""
+msgstr "Flytt nedover"
 
 #. TRANSLATORS: Tooltip for "exit widget edit mode"/close button on widget headers
 #: src/launcher/ui/widgetviewheader.ui:127
 msgid "Exit editing mode"
-msgstr ""
+msgstr "Avslutt redigeringsmodus"
 
 #. TRANSLATORS: Used in the popup that appears when you remove a widget
 #: src/launcher/widgetbox.py:126
