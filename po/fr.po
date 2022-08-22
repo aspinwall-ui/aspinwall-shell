@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: 2022-08-06 13:18+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2022-08-22 09:18+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/aspinwall-ui/"
 "aspinwall-shell/fr/>\n"
 "Language: fr\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:7
 msgid "List of added widgets."
-msgstr ""
+msgstr "Liste des widgets ajoutés."
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:15
 msgid "Path to wallpaper"
