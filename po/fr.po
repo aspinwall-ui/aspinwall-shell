@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: 2022-08-23 03:37+0000\n"
+"PO-Revision-Date: 2022-10-05 09:24+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/aspinwall-ui/"
 "aspinwall-shell/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
@@ -211,6 +211,8 @@ msgstr ""
 #: src/launcher/ui/about.ui:28
 msgid "Linux tablet UI with smart hub capabilities"
 msgstr ""
+"Interface utilisateur pour tablettes Linux avec fonctionnalités de hub "
+"intelligent"
 
 #. TRANSLATORS: You can also translate "contributors" as "programmers" or "developers".
 #: src/launcher/ui/about.ui:30
@@ -511,33 +513,33 @@ msgstr "_Sélectionner"
 
 #: src/shell/ui/controlpanel.ui:27
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #. TRANSLATORS: Used for the "shut down" button in the control panel
 #: src/shell/ui/controlpanel.ui:70
 msgid "Shut down"
-msgstr ""
+msgstr "Éteindre"
 
 #. TRANSLATORS: Used for the inactive state of the Wi-Fi button in the control panel
 #: src/shell/ui/controlpanel.ui:107
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #. TRANSLATORS: Used for the inactive state of the battery button in the control panel
 #: src/shell/ui/controlpanel.ui:122
 msgid "No battery"
-msgstr ""
+msgstr "Pas de batterie"
 
 #. TRANSLATORS: Used for the microphone enable/disable button in the control panel
 #: src/shell/ui/controlpanel.ui:130
 msgid "Microphone"
-msgstr ""
+msgstr "Microphone"
 
 #. TRANSLATORS: Used for the automatic rotation button
 #: src/shell/ui/controlpanel.ui:138
 msgid "Auto-rotation"
-msgstr ""
+msgstr "Rotation automatique"
 
 #: src/shell/ui/controlpanel.ui:196
 msgid "No new notifications"
-msgstr ""
+msgstr "Pas de nouvelles notifications"
