@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: 2022-10-07 10:18+0000\n"
+"PO-Revision-Date: 2022-10-18 15:30+0000\n"
 "Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/aspinwall-ui/"
 "aspinwall-shell/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
@@ -224,11 +224,11 @@ msgstr "다른 검색 시도"
 
 #: src/launcher/ui/appicon.ui:63
 msgid "_Remove from favorites"
-msgstr "_즐겨 찾기에서 삭제"
+msgstr "즐겨찾기에서 삭제(_R)"
 
 #: src/launcher/ui/appicon.ui:68
 msgid "_Add to favorites"
-msgstr "_즐겨 찾기에 추가"
+msgstr "즐겨찾기에 추가(_A)"
 
 #. TRANSLATORS: Tooltip for the "open app chooser" button in the launcher
 #: src/launcher/ui/launcher.ui:56
@@ -413,19 +413,19 @@ msgstr "위젯 관리 모드 종료"
 
 #: src/launcher/ui/widgetbox.ui:135
 msgid "_Add Widgets…"
-msgstr "_위젯 추가…"
+msgstr "위젯 추가(_A)…"
 
 #: src/launcher/ui/widgetbox.ui:140
 msgid "_Manage Widgets"
-msgstr "_위젯 관리"
+msgstr "위젯 관리(_M)"
 
 #: src/launcher/ui/widgetbox.ui:147
 msgid "_Launcher Settings"
-msgstr "_실행기 설정"
+msgstr "실행기 설정(_L)"
 
 #: src/launcher/ui/widgetbox.ui:152
 msgid "A_bout Aspinwall"
-msgstr "Aspinwall 정보"
+msgstr "Aspinwall 정보(_B)"
 
 #: src/launcher/ui/widgetchooser.ui:30
 msgid "Search widgets…"
@@ -483,13 +483,13 @@ msgstr "바탕 화면 추가"
 #. TRANSLATORS: Used for the file chooser dialog for adding wallpapers
 #: src/launcher/settings.py:242
 msgid "_Cancel"
-msgstr "_취소"
+msgstr "취소(_C)"
 
 #. noqa: F821
 #. TRANSLATORS: Used for the file chooser dialog for adding wallpapers
 #: src/launcher/settings.py:244
 msgid "_Select"
-msgstr "_선택"
+msgstr "선택(_ S)"
 
 #: src/shell/ui/controlpanel.ui:27
 msgid "Settings"
