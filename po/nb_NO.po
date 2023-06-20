@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: aspinwall\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 13:47+0200\n"
-"PO-Revision-Date: 2022-08-06 13:18+0000\n"
+"PO-Revision-Date: 2023-06-21 11:53+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "aspinwall-ui/aspinwall-shell/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/org.dithernet.aspinwall.launcher.gschema.xml:6
 msgid "Widgets"
@@ -526,7 +526,7 @@ msgstr "_Oppstarterinnstillinger"
 #. TRANSLATORS: Used for the "shut down" button in the control panel
 #: src/shell/ui/controlpanel.ui:70
 msgid "Shut down"
-msgstr ""
+msgstr "Slå av"
 
 #. TRANSLATORS: Used for the inactive state of the Wi-Fi button in the control panel
 #: src/shell/ui/controlpanel.ui:107
